@@ -1,0 +1,123 @@
+:root{
+    --primary: #c0fdfb;
+    --secondary: #6efafb;
+    --tertiary: #ffb703;
+    --quaternary: #fb8500;
+    --white: #fcfcfb;
+    --headerFont: "Kablammo", "notable",sans-serif;
+    --font: "Montserrat", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    font-family: var(--font);
+}
+
+/* header */
+.header{
+    padding: 10px 0;
+    background-color: var(--primary);
+    border-bottom: 5px solid var(--quaternary);
+}
+
+h1{
+    font-family: var(--headerFont);
+    font-size: 4em;
+}
+
+/* main */
+.main{
+    padding: 40px 0;
+}
+
+.section{
+    padding: 60px 0;
+    margin: 20px 0;
+}
+
+.menu-div{
+    padding: 20px 0;
+    border: 3px solid red;
+
+}
+
+.menu-heading{
+    font-family: var(--headerFont);
+    font-size: 3em;
+}
+
+.item-desc{
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+.btn-primary{
+    background-color: var(--tertiary);
+    border: none;
+    color: black;
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary);
+    border: 3px solid var(--primary);
+    color: black;
+}
+
+.btn-secondary{
+    background-color: var(--secondary);
+    border: none;
+    color: black;
+}
+
+.btn-secondary:hover{
+    background-color: var(--primary);
+    border: 3px solid var(--secondary);
+    color: black;
+}
+
+.item-item{
+    color: var(--quaternary);
+}
+
+.item-price{
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.subtotal-div, .ticket-div{
+    padding: 15px;
+    background-color: whitesmoke;
+    border: 3px solid var(--secondary);
+    border-radius: 10px;
+}
+
+#appetizersDiv{
+    background-color: green;
+}
+
+#receipt-table{
+    padding: 10px 0;
+    width: 100%;
+}
+
+.footer{
+    padding: 10px 0;
+}
+
+#entreesDiv{
+    background-color: blue;
+}
+
+#drinksDiv{
+    background-color: violet;
+}
+
+#dessertsDiv{
+    background-color: orange;
+}
